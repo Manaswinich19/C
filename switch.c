@@ -9,10 +9,10 @@ int main(){
     {
         case 1:
             printf("First Phase of my Life \n Childhood Data \n Born in INDIA,Telangana\n");
-            //break;
+            break;
         case 2:
             printf("Second Phase of my Life \n My Education details \n M.tech in VLSI System Design\n");
-           // break;
+           break;
         case 3:
             printf("Third Phase of my Life \n My Aim is to become Embedded Engineer\n");
              //break;
