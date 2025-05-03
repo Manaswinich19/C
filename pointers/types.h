@@ -1,0 +1,11 @@
+typedef short int sint16;
+typedef unsigned short int usint16;
+typedef long int lint32;
+typedef unsigned long int ulint32;
+typedef long long int llint64;
+typedef unsigned long long int ullint64;
+typedef char char8;
+typedef int int32;
+typedef float float32;
+typedef double double64;
+typedef long double ldouble128;

@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int  arr[3]={11,22,33};
+    int a=50,b=60,c=70;
+    int *p[3]={&a,&b,&c};
+    int (*ptr)[3]=&arr;
+    int i;
+    
+    for(i=0;i<3;i++)
+        {
+            printf(" arr[%d]=%d\t",i,arr[i]);  
+  
+            printf("the elements are p[%d]=%d\t",i,*p[i]);
+     
+           printf("the elements pointed ptr(%d) =%d\n",i,*(*ptr+i));
+        }    
+}
